@@ -7,10 +7,10 @@
 models:
   default_chat_model:
     type: azure_openai_chat # or azure_openai_chat
-    api_base: https://newtestapp.openai.azure.com/
+    api_base: 
     api_version: 2024-12-01-preview
     auth_type: api_key # or azure_managed_identity
-    api_key: 2Q3KackoC5A5IztMn4aGNqt6BtRV2nXCWADshhem9b6F19dWOx6tJQQJ99BFACHYHv6XJ3w3AAABACOGyiNZ # set this in the generated .env file
+    api_key: # set this in the generated .env file
     # audience: "https://cognitiveservices.azure.com/.default"
     # organization: <organization_id>
     model: gpt-4o
@@ -25,10 +25,10 @@ models:
     requests_per_minute: auto            # set to null to disable rate limiting
   default_embedding_model:
     type: azure_openai_embedding # or azure_openai_embedding
-    api_base:  https://newtestapp.openai.azure.com/
+    api_base: 
     api_version: 2024-05-01-preview
     auth_type: api_key # or azure_managed_identity
-    api_key: 2Q3KackoC5A5IztMn4aGNqt6BtRV2nXCWADshhem9b6F19dWOx6tJQQJ99BFACHYHv6XJ3w3AAABACOGyiNZ
+    api_key:  # set this in the generated .env file
     # audience: "https://cognitiveservices.azure.com/.default"
     # organization: <organization_id>
     model: text-embedding-ada-002
