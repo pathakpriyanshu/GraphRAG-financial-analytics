@@ -1,6 +1,6 @@
 # GraphRAG-Financial-Analytics
 
-![GraphRAG banner](.images/banner.jpg)
+![GraphRAG banner](images/banner.jpg)
 
 > **Turn 116 pages of unstructured Tesla 10-K data into an interactive knowledge graph that answers multi-hop financial questions with traceable citations.**
 
