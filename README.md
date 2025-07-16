@@ -58,7 +58,8 @@ Traditional Retrieval-Augmented Generation (RAG) pipelines choke on long, messy 
 ---
 
 ## 📈 10-K Complexity Snapshot
-[images/Screenshot 2025-07-16 183733.png]
+![Compexity](images/Screenshot 2025-07-16 183733.png)
+
 
 ---
 
