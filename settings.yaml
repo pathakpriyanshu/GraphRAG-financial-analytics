@@ -10,7 +10,7 @@ models:
     api_base: https://newtestapp.openai.azure.com/
     api_version: 2024-12-01-preview
     auth_type: api_key # or azure_managed_identity
-    api_key: 2Q3KackoC5A5IztMn4aGNqt6BtRV2nXCWADshhem9b6F19dWOx6tJQQJ99BFACHYHv6XJ3w3AAABACOGyiNZ # set this in the generated .env file
+    api_key: {AZURE_OPENAI_API_KEY_CHAT} # set this in the generated .env file
     # audience: "https://cognitiveservices.azure.com/.default"
     # organization: <organization_id>
     model: gpt-4o
@@ -28,7 +28,7 @@ models:
     api_base:  https://newtestapp.openai.azure.com/
     api_version: 2024-05-01-preview
     auth_type: api_key # or azure_managed_identity
-    api_key: 2Q3KackoC5A5IztMn4aGNqt6BtRV2nXCWADshhem9b6F19dWOx6tJQQJ99BFACHYHv6XJ3w3AAABACOGyiNZ
+    api_key: 'AZURE_OPENAI_API_KEY_EMBEDDING'
     # audience: "https://cognitiveservices.azure.com/.default"
     # organization: <organization_id>
     model: text-embedding-ada-002
