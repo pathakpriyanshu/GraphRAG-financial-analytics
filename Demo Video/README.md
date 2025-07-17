@@ -2,7 +2,5 @@
 
 Watch the demo here:
 
-▶️ [Click to Watch Demo Video](https://drive.google.com/file/d/FILE_ID/preview)
+▶️ [Click to Watch Demo Video](https://drive.google.com/file/d/1qhBogJjk7W0tLst4DvbKmnf2tC_opVIW/view?usp=sharing)
 
-Or open in full screen:
-🔗 [Open in Google Drive](https://drive.google.com/file/d/FILE_ID/view)
