@@ -75,7 +75,7 @@ This approach enables complex financial analysis that would be impossible with t
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/GraphRAG-financial-analytics.git
+   git clone https://github.com/pathakpriyanshu/GraphRAG-financial-analytics.git
    cd GraphRAG-financial-analytics
    ```
 
@@ -85,40 +85,36 @@ This approach enables complex financial analysis that would be impossible with t
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-4. **Configure Environment Variables**
+3. **Configure Environment Variables**
    ```bash
    # Edit .env file with your OpenAI API key, I have used azure_openAI_keys for both embedding and chat model.
    OPENAI_API_KEY=your_api_key_here
    ```
 
-5. **Configure GraphRAG Settings**
+4. **Configure GraphRAG Settings**
    ```bash
    # Edit settings.yaml with your specific configuration
    # Adjust model parameters, chunk sizes, and output paths
    ```
 
-6. **Initialize GraphRAG**
+5. **Initialize GraphRAG**
    ```bash
    python -m graphrag.index --init --root ./
    ```
 
-**No need for step 7, if testing for the same file I have uploaded (Tesla 10-k report)**
-7. **Process the Tesla 10-K Document**
+**No need for step 6, if testing for the same file I have uploaded (Tesla 10-k report)**
+6. **Process the Tesla 10-K Document**
    ```bash
    python -m graphrag.index --root ./
    ```
 
-8. **Asking query**
+7. **Asking query**
    ```bash
    graphrag query --method local --query "Give me the list of all persons who have done their signatures at the end of this document"
    ```
 
-9. **Adjust the visual.py file as per your input document, which will help you to generate an .html file for visualizing the knowledge graph**
+8. **Adjust the visual.py file as per your input document, which will help you to generate an .html file for visualizing the knowledge graph**
 
 ## 💡 Demo Queries & Results
 
@@ -186,13 +182,6 @@ This approach enables complex financial analysis that would be impossible with t
 - **Processing Time**: Initial graph construction takes considerably longer than traditional RAG
 - **Domain Expertise**: Requires understanding of financial document structure for optimal results
 
-## 🔧 Configuration
-
-
-
-## 📈 Usage Examples
-
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -200,8 +189,6 @@ This approach enables complex financial analysis that would be impossible with t
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-
 
 ## 🙏 Acknowledgments
 
@@ -219,12 +206,3 @@ This approach enables complex financial analysis that would be impossible with t
 
 **Note**: This demonstration uses Tesla's publicly available 10-K filing for educational purposes. All financial data is sourced from official SEC filings and is used in accordance with fair use principles for research and educational purposes.
 
-## 🎯 Next Steps
-
-1. **Extend to Multiple Documents**: Process multiple 10-K filings for comparative analysis
-2. **Real-time Updates**: Implement pipeline for quarterly earnings updates
-3. **Industry Expansion**: Apply to other sectors (healthcare, technology, etc.)
-4. **Advanced Visualization**: Interactive dashboard for knowledge graph exploration
-5. **API Development**: RESTful API for programmatic access to insights
-
-For questions or support, please open an issue in this repository or contact the maintainers.
