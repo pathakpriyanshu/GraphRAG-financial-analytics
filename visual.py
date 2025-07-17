@@ -3,8 +3,8 @@ import networkx as nx
 from pyvis.network import Network
 
 # --- load parquet files ---
-entities   = pd.read_parquet(r"D:\1. INDIUM\Project\DATA\graphrag\output\entities.parquet")
-relations  = pd.read_parquet(r"D:\1. INDIUM\Project\DATA\graphrag\output\relationships.parquet")
+entities   = pd.read_parquet("Path_of_enitites_parquet_files")
+relations  = pd.read_parquet("Path_of_realtions_parquet_files")
 
 # --- build graph ---
 G = nx.Graph()
