@@ -103,9 +103,9 @@ This approach enables complex financial analysis that would be impossible with t
    python -m graphrag.index --init --root ./
    ```
 
-**No need for step 6, if testing for the same file I have uploaded (Tesla 10-k report)**
 6. **Process the Tesla 10-K Document**
    ```bash
+   # No need for this step, if testing for the same file I have uploaded (Tesla 10-k report) as I am already uploading all prompts, embeddings files.
    python -m graphrag.index --root ./
    ```
 
